@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# OS
+.DS_Store
+
+# PyCharm
+.idea/
+.idea/Get-Started-with-Kubernetes.iml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
