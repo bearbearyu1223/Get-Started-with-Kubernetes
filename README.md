@@ -1,5 +1,10 @@
 # Get-Started-with-Kubernetes
 Tl:dr: A simple `hello world` example to get started with Kubernetes. 
+## Step 0: Setup
+Download Docker for Mac at  https://docs.docker.com/docker-for-mac/install/. 
+Install Docker Desktop and enable Kubernetes.  
+
+Clone the codebase from this repository. 
 
 ## Step 1: Run Locally 
 ```bash
