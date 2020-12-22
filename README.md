@@ -1,7 +1,7 @@
 # Get-Started-with-Kubernetes
-Get Started with Kubernetes
+Tl:dr: A simple `hello world` example to get started with Kubernetes. 
 
-## Run Locally 
+## Step 1: Run Locally 
 ```bash
 cd app
 ```
@@ -12,7 +12,7 @@ python main.py
 
 ```
 
-## Create Docker Image
+## Step 2: Create Docker Image
 In the `app/` directory, build the docker image with the following command
 ```bash
 docker build -f ../docker/Dockerfile -t hello-api:latest .
@@ -22,13 +22,13 @@ To verify if image was created, run the following command:
 docker image ls
 ```
 
-## Running the Image in Docker
+## Step 3: Running the Image in Docker
 ```bash
 docker run -p 3050:3000 hello-api
 ``` 
 Now navigate to `http://localhost:3050` to see the message.  
 
-## Running in Kubernetes 
+## Step 4: Running in Kubernetes 
 What is my current context point to? 
 ```bash
 kubectl config current-context
